@@ -1,5 +1,7 @@
 import React from "react";
-import WorkImg from "../assets/projects/workImg.jpeg";
+import PrimeMusicImg from "../assets/PrimeMusic.png";
+import QuoraImg from "../assets/Quora.png";
+import MovieDeckImg from "../assets/MovieDeck.png";
 
 const Projects = () => {
   return (
@@ -17,20 +19,28 @@ const Projects = () => {
 
         <div className="grid md:grid-cols-3 gap-4">
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${QuoraImg})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 group-hover:opacity-100 text-center transition-opacity ease-in duration-200">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Quora Clone
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://quora-clone-psi.vercel.app/"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/HighOnJalapenos/QuoraClone"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -40,20 +50,28 @@ const Projects = () => {
           </div>
 
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${PrimeMusicImg})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 group-hover:opacity-100 text-center transition-opacity ease-in duration-200">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Prime Music Clone
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://prime-music-clone.vercel.app/"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/HighOnJalapenos/PrimeMusicProject"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -63,20 +81,28 @@ const Projects = () => {
           </div>
 
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${MovieDeckImg})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 group-hover:opacity-100 text-center transition-all duration-200">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Movie Deck
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://highonjalapenos.github.io/Movie-Deck-Project/"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/HighOnJalapenos/Movie-Deck-Project"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>

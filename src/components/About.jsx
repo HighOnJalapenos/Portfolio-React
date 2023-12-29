@@ -19,11 +19,16 @@ const About = () => {
             </p>
           </div>
           <div>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus
-            similique impedit cupiditate voluptatem accusantium odit aut quas
-            facere, dolorem ratione sapiente facilis veritatis sit fugit quos
-            neque aliquid dolore enim? Laborum doloribus eligendi aspernatur
-            commodi quasi consequuntur reiciendis nemo sapiente?
+            Transitioning from finance to web development, I bring a strong
+            analytical mindset, problem-solving abilities, and attention to
+            detail. I am skilled in the front-end technologies such as HTML, CSS
+            and JavaScript. I have further honed my skills by working on many
+            projects and solving Data Structure and Algorithm based questions on
+            multiple platforms. Beyond technical expertise, my transition has
+            taught me the value of adaptability and continuous learning. I'm
+            excited to contribute my unique blend of skills and passion for
+            innovation. Let's connect and create exceptional web experiences
+            together!
           </div>
         </div>
       </div>
