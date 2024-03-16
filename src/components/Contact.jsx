@@ -24,12 +24,14 @@ const Contact = () => {
           type="text"
           placeholder="Name"
           name="name"
+          required
         />
         <input
           className="my-4 p-2 bg-[#ccd6f6] outline-none focus:ring rounded-sm"
           type="email"
           placeholder="Email"
           name="email"
+          required
         />
         <textarea
           className="bg-[#ccd6f6] p-2 outline-none focus:ring rounded-sm resize-none"
@@ -37,6 +39,7 @@ const Contact = () => {
           rows={10}
           placeholder="Message"
           name="message"
+          required
         />
         <button className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 hover:scale-105 px-4 py-3 my-8 mx-auto flex items-center transition duration-200">
           Submit
